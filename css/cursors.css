@@ -1,0 +1,17 @@
+/* 卡片滚动动画样式 */
+.index-card {
+  transition: all 0.5s ease-out;
+  transform: scale(0.8);
+  opacity: 0;
+  margin-bottom: 2rem;
+  will-change: transform, opacity;
+}
+
+.index-card[style*="--state: 1"] {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.index-img img {
+  margin: 20px 0;
+}
