@@ -1,9 +1,10 @@
- body {
-   cursor:url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-         default;
- }
- a,
- img {
-   cursor:url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
-         default;
- }
+/* 全局默认指针 */
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), default !important;
+}
+
+/* 链接和图片悬停指针（使用 pointer 类型更符合交互习惯） */
+a,
+img {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), pointer !important;
+}
