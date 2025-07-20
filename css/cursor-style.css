@@ -1,0 +1,18 @@
+/* source/css/cursor-style.css */
+/* 全局默认指针 */
+body {
+  cursor: url(/css/cursor/default.cur), default;
+}
+
+/* 链接悬停指针 */
+a:hover {
+  cursor: url(/css/cursor/pointer.cur), pointer;
+}
+
+/* 其他元素指针样式 */
+button {
+  cursor: url(/css/cursor/button.cur), pointer;
+}
+input, textarea {
+  cursor: url(/css/cursor/input.cur), text;
+}
